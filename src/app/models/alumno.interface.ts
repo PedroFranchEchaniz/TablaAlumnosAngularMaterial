@@ -1,6 +1,14 @@
-export interface Alumno {
-    name: string;
-    position: number;
-    weight: number;
-    symbol: string;
+export interface alumno {
+    id: string;
+   nombre: string;
+   edad: number;
+   sexo: string;
+   asignatura: asignatura[];
+   matricula: string;
+   pago: string;
+}
+
+export interface asignatura{
+    nombre: string;
+    horas: number;
 }
